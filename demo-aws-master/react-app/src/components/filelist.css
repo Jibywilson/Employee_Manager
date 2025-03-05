@@ -1,0 +1,56 @@
+/* Container */
+.file-list-container {
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Title */
+.file-list-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+/* Table Styles */
+.file-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.file-table thead {
+    background-color: #f3f3f3;
+}
+
+.file-table th, 
+.file-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.file-table th {
+    font-weight: bold;
+}
+
+/* Alternating Row Colors */
+.file-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.file-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Download Link */
+.download-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+}
